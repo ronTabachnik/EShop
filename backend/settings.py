@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 from pathlib import Path
 import os
 from dotenv import load_dotenv
+import secrets
 
 load_dotenv()
 
@@ -21,13 +22,22 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
-
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS=["45.137.159.168"] 
+ALLOWED_HOSTS=['*'] 
+
+SECURE_HSTS_SECONDS = 31536000  # 1 year
+
+
+SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+
+# Set to True to enable HSTS preloading in browsers
+SECURE_HSTS_PRELOAD = True
+SECURE_SSL_REDIRECT = True
+
 # AUTH_USER_MODEL = 'base.User'
 
 # Application definition
