@@ -27,7 +27,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS=["vcardhub.click"] 
+ALLOWED_HOSTS=["45.137.159.168"] 
 # AUTH_USER_MODEL = 'base.User'
 
 # Application definition
