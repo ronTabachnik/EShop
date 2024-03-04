@@ -70,7 +70,6 @@ openpyxl==3.1.2
 optional-django==0.1.0
 outcome==1.2.0
 packaging==21.3
-pandas==2.0.2
 pandocfilters==1.5.0
 parso==0.8.3
 pexpect==4.8.0
