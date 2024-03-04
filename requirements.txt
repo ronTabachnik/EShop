@@ -65,7 +65,6 @@ node==1.0
 notebook==6.4.12
 npm==0.1.1
 npx==0.1.1
-numpy==1.23.1
 odict==1.9.0
 openpyxl==3.1.2
 optional-django==0.1.0
