@@ -104,7 +104,6 @@ python-dotenv==1.0.1
 pytweening==1.0.7
 pytz==2022.1
 pywhatkit==5.4
-PyYAML==6.0
 pyzmq==23.2.0
 requests==2.28.0
 rubicon-objc==0.4.6
